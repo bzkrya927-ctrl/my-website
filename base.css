@@ -1,0 +1,188 @@
+
+/* Base Styles */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: var(--text-main);
+  background: var(--light);
+  transition: var(--transition);
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  position: relative;
+}
+
+/* Images and Media */
+img,
+video,
+iframe,
+embed,
+object {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Prevent horizontal scroll */
+img,
+svg,
+canvas {
+  max-width: 100%;
+}
+
+/* Section */
+section {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* RTL Support */
+body.ar {
+  direction: rtl;
+  text-align: right;
+}
+
+body.ar .nav-links {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+body.ar .menu-toggle {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+body.ar .hero-btns {
+  flex-direction: row-reverse;
+}
+
+body.ar .about-grid {
+  grid-template-columns: 1fr;
+}
+
+body.ar .timeline-item {
+  border-left: none;
+  border-right: 3px solid var(--primary);
+  padding-left: 0;
+  padding-right: 1.5rem;
+}
+
+/* Responsive Font Sizes */
+@media (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 360px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+body.ar .timeline-item::before {
+  left: auto;
+  right: -8px;
+}
+
+body.ar .contact-wrapper {
+  grid-template-columns: 1fr;
+}
+
+body.ar .info-item {
+  text-align: right;
+}
+
+body.ar .footer .container {
+  flex-direction: column-reverse;
+}
+
+body.ar .back-to-top {
+  left: 20px;
+  right: auto;
+}
+
+body.ar .skill-item {
+  border-left: none;
+  border-right: 4px solid var(--primary);
+}
+
+body.ar .skill-item:hover {
+  border-right-width: 6px;
+  border-left-width: 0;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Sections */
+.section {
+  padding: 5rem 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: var(--text-main);
+  position: relative;
+  display: inline-block;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background: var(--primary);
+  border-radius: 2px;
+}
+
+body.ar .section-title::after {
+  left: auto;
+  right: 0;
+}
+
+/* Background Light Class */
+.bg-light {
+  background: var(--light);
+}
+
+.dark-mode .bg-light {
+  background: var(--light);
+}

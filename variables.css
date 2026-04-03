@@ -1,0 +1,55 @@
+
+/* CSS Variables - Color System */
+:root {
+  /* Primary Colors - Green tones for accounting */
+  --primary: #0f766e;
+  --primary-dark: #047857;
+  --primary-light: #10b981;
+
+  /* Secondary Colors - Gray tones */
+  --secondary: #64748b;
+  --secondary-dark: #475569;
+  --secondary-light: #94a3b8;
+
+  /* Background Colors */
+  --dark: #0f172a;
+  --light: #f8fafc;
+  --white: #ffffff;
+
+  /* Text Colors */
+  --text-main: #1e293b;
+  --text-muted: #64748b;
+
+  /* Accent Colors */
+  --accent: #0d9488;
+  --success: #10b981;
+
+  /* Transition */
+  --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Dark Mode Variables */
+body.dark-mode {
+  /* Primary Colors - Slightly lighter for dark mode */
+  --primary: #10b981;
+  --primary-dark: #059669;
+  --primary-light: #34d399;
+
+  /* Secondary Colors */
+  --secondary: #94a3b8;
+  --secondary-dark: #64748b;
+  --secondary-light: #cbd5e1;
+
+  /* Background Colors - Swapped for dark mode */
+  --dark: #f8fafc;
+  --light: #1e293b;
+  --white: #1e293b;
+
+  /* Text Colors - Lighter for dark backgrounds */
+  --text-main: #f1f5f9;
+  --text-muted: #cbd5e1;
+
+  /* Accent Colors */
+  --accent: #14b8a6;
+  --success: #34d399;
+}
