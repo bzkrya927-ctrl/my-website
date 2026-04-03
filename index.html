@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdelrahman Zakaria Yahya | Junior Accountant</title>
+    <meta name="description" content="Portfolio of Abdelrahman Zakaria Yahya, a Junior Accountant and Accounting Graduate specialized in financial analysis and reporting.">
+    <meta name="keywords" content="Accountant, Junior Accountant, Financial Analysis, Accounting Graduate, Egypt, Portfolio">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons will be loaded at the end -->
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="en">
+    <header id="header">
+        <nav class="container">
+            <div class="logo" id="nav-logo" data-aos="fade-down">Abdelrahman</div>
+            <ul class="nav-links">
+                <li data-aos="fade-down" data-aos-delay="100"><a href="#hero" data-key="nav.home">Home</a></li>
+                <li data-aos="fade-down" data-aos-delay="200"><a href="#about" data-key="nav.about">About</a></li>
+                <li data-aos="fade-down" data-aos-delay="300"><a href="#education" data-key="nav.education">Education</a></li>
+                <li data-aos="fade-down" data-aos-delay="400"><a href="#experience" data-key="nav.experience">Experience</a></li>
+                <li data-aos="fade-down" data-aos-delay="500"><a href="#projects" data-key="nav.projects">Projects</a></li>
+                <li data-aos="fade-down" data-aos-delay="600"><a href="#contact" data-key="nav.contact">Contact</a></li>
+                <li data-aos="fade-down" data-aos-delay="700"><button id="lang-toggle" class="lang-btn" data-key="nav.lang">العربية</button></li>
+                <li data-aos="fade-down" data-aos-delay="800"><button id="theme-toggle" class="theme-btn" aria-label="Toggle Dark Mode"><i data-lucide="moon"></i></button></li>
+            </ul>
+            <div class="menu-toggle" data-aos="fade-down">
+                <i data-lucide="menu"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container hero-content">
+                <div class="profile-img-container" data-aos="zoom-in">
+                    <img id="profile-img" src="" alt="Abdelrahman Zakaria" class="profile-img">
+                </div>
+                <div class="hero-text">
+                    <h1 id="hero-name" data-aos="fade-up" data-aos-delay="200">Loading...</h1>
+                    <p class="subtitle" id="hero-title" data-aos="fade-up" data-aos-delay="300"></p>
+                    <p class="description" id="hero-intro" data-aos="fade-up" data-aos-delay="400"></p>
+                    <div class="hero-btns" data-aos="fade-up" data-aos-delay="500">
+                        <a href="./Abdelrahman_Zakaria_CV (1).pdf" class="btn btn-primary" id="cv-btn" download="Abdelrahman_Zakaria_CV.pdf">Download CV <i data-lucide="download"></i></a>
+                        <a href="#contact" class="btn btn-secondary" data-key="nav.contact">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-right" id="about-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text" id="about-content" data-aos="fade-up"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-right" id="skills-title">Core Skills</h2>
+                <div class="skills-grid-detailed" id="skills-list"></div>
+            </div>
+        </section>
+
+        <!-- Languages Section -->
+        <section id="languages" class="section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-right" id="languages-title">Languages</h2>
+                <div class="languages-grid" id="languages-list"></div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-right" id="education-title">Education</h2>
+                <div id="education-list" class="timeline"></div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-right" id="experience-title">Work Experience</h2>
+                <div id="experience-list" class="timeline"></div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-right" id="projects-title">Academic Projects</h2>
+                <div class="projects-grid" id="projects-list"></div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-right" id="certifications-title">Certifications</h2>
+                <ul class="cert-list" id="cert-list"></ul>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-right" id="contact-title">Contact Me</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info" data-aos="fade-right">
+                        <a href="mailto:bzakarya927@gmail.com" id="contact-email" class="info-item" data-aos="fade-up" data-aos-delay="100">
+                            <i data-lucide="mail"></i>
+                            <div>
+                                <h3 id="label-email">Email</h3>
+                                <span class="contact-info-text"></span>
+                            </div>
+                        </a>
+                        <a href="tel:+201555211201" id="contact-phone" class="info-item" data-aos="fade-up" data-aos-delay="200">
+                            <i data-lucide="phone"></i>
+                            <div>
+                                <h3 id="label-phone">Phone</h3>
+                                <span class="contact-info-text"></span>
+                            </div>
+                        </a>
+                        <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+                            <i data-lucide="map-pin"></i>
+                            <div>
+                                <h3 id="label-location">Location</h3>
+                                <p id="contact-location"></p>
+                            </div>
+                        </div>
+                        <a href="https://linkedin.com/in/abdelrahman-zakaria-18ba69236" id="contact-linkedin" class="info-item" data-aos="fade-up" data-aos-delay="400" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                            <div>
+                                <h3 id="label-linkedin">LinkedIn</h3>
+                                <span class="contact-info-text"></span>
+                            </div>
+                        </a>
+                    </div>
+                    <form id="contact-form" class="contact-form" data-aos="fade-left">
+                        <div class="form-group" data-aos="fade-up" data-aos-delay="100">
+                            <input type="text" name="user_name" id="form-name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group" data-aos="fade-up" data-aos-delay="200">
+                            <input type="email" name="user_email" id="form-email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group" data-aos="fade-up" data-aos-delay="300">
+                            <textarea name="message" id="form-message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <div data-aos="fade-up" data-aos-delay="400">
+                            <button type="submit" id="form-submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                        <div id="form-status" class="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p data-aos="fade-up">&copy; <span id="year"></span> Abdelrahman Zakaria All rights reserved.</p>
+            <div class="social-links" data-aos="fade-up" data-aos-delay="200">
+                <a href="https://linkedin.com/in/abdelrahman-zakaria-18ba69236" id="footer-linkedin" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+                <a href="mailto:bzakarya927@gmail.com" id="footer-mail"><i data-lucide="mail"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <i data-lucide="chevron-up"></i>
+    </button>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

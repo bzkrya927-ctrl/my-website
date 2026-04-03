@@ -1,0 +1,38 @@
+
+/* Responsive Design Improvements */
+
+@media (max-width: 992px) {
+  .hero h1 { font-size: 3rem; }
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .contact-form { padding: 2rem; }
+  .container { padding: 0 15px; }
+}
+
+@media (max-width: 768px) {
+  .section { padding: 4rem 0; }
+  .hero h1 { font-size: 2.5rem; }
+  .hero .subtitle { font-size: 1.5rem; }
+  .hero .description { font-size: 1.1rem; }
+  .nav-links { display: none; }
+  .menu-toggle { display: block; }
+  .hero-btns { flex-direction: column; }
+  .profile-img-container { width: 180px; height: 180px; }
+  .section-title { font-size: 2rem; }
+  .skills-grid-detailed { grid-template-columns: 1fr; }
+  .projects-grid { grid-template-columns: 1fr; }
+  .languages-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+  .hero h1 { font-size: 2rem; }
+  .hero .subtitle { font-size: 1.3rem; }
+  .hero .description { font-size: 1rem; }
+  .section { padding: 3rem 0; }
+  .section-title { font-size: 1.8rem; }
+  .profile-img-container { width: 150px; height: 150px; }
+  .btn { padding: 0.8rem 1.5rem; font-size: 0.95rem; }
+  .container { padding: 0 10px; }
+}

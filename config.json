@@ -1,0 +1,251 @@
+{
+  "en": {
+    "personal": {
+      "fullName": "Abdelrahman Zakaria Yahya",
+      "professionalTitle": "Junior Accountant",
+      "location": "Sharqia, Egypt",
+      "phone": "+20 155 521 1201",
+      "email": "bzakarya927@gmail.com",
+      "linkedin": "https://linkedin.com/in/abdelrahman-zakaria-18ba69236",
+      "cvDownloadUrl": "./Abdelrahman_Zakaria_CV (1).pdf",
+      "heroHeadline": "Junior Accountant",
+      "heroIntroduction": "Motivated accounting graduate with a strong foundation in financial reporting, financial analysis, and auditing principles. Passionate about applying analytical skills and accounting knowledge to support business decisions and financial accuracy.",
+      "profileImage": "photo1.jpeg"
+    },
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "education": "Education",
+      "experience": "Experience",
+      "projects": "Projects",
+      "contact": "Contact",
+      "lang": "العربية"
+    },
+    "about": {
+      "title": "About Me",
+      "paragraphs": [
+        "Accounting graduate from Zagazig University (English Section) with academic and practical experience in financial analysis, retail operations, and data entry. Skilled in handling financial transactions, analyzing financial statements, and working with accounting principles.",
+        "Experienced in customer service, POS systems, and inventory data management. Highly motivated to begin a professional career in accounting where I can apply my knowledge and grow within a dynamic organization."
+      ]
+    },
+    "education": {
+      "title": "Education",
+      "items": [
+        {
+          "institution": "Zagazig University",
+          "degree": "Bachelor of Accounting – English Section (Credit Hours Program)",
+          "graduationDate": "July 2025",
+          "major": "Accounting",
+          "grade": "Good",
+          "relevantCourses": ["Financial Accounting", "Cost Accounting", "Financial Analysis", "Auditing"]
+        }
+      ]
+    },
+    "experience": {
+      "title": "Work Experience",
+      "items": [
+        {
+          "role": "Cashier & Product Data Entry Clerk",
+          "company": "Khair Zaman Hypermarket – Sharqia",
+          "duration": "February 2025",
+          "responsibilities": [
+            "Processed sales transactions using POS systems",
+            "Reconciled daily financial transactions",
+            "Entered and updated more than 1000 products in the inventory system",
+            "Maintained 98% data accuracy",
+            "Provided efficient customer service"
+          ]
+        },
+        {
+          "role": "Fitness Trainer",
+          "company": "High Gym – Sharqia",
+          "duration": "2023",
+          "responsibilities": [
+            "Designed personalized training programs",
+            "Monitored client progress",
+            "Ensured safe workout techniques",
+            "Built strong client relationships"
+          ]
+        }
+      ]
+    },
+    "projects": {
+      "title": "Academic Projects",
+      "items": [
+        {
+          "name": "Financial Statement Analysis Project",
+          "description": "Analyzed financial statements of a real company, applied ratio and trend analysis, and presented recommendations in a formal report."
+        },
+        {
+          "name": "Cost Allocation Case Study",
+          "description": "Simulated costing for a manufacturing process, applied CVP analysis, and used job-order costing to estimate profit margins."
+        }
+      ]
+    },
+    "skills": {
+      "title": "Core Skills",
+      "items": [
+        {"name": "Financial Analysis", "level": 85},
+        {"name": "Financial Reporting", "level": 80},
+        {"name": "Accounting Principles", "level": 90},
+        {"name": "Microsoft Excel", "level": 95},
+        {"name": "Data Entry", "level": 98},
+        {"name": "Inventory Management", "level": 85}
+      ]
+    },
+    "languages": {
+      "title": "Languages",
+      "items": [
+        {"name": "Arabic", "level": "Native"},
+        {"name": "English", "level": "Professional (English Section Graduate)"}
+      ]
+    },
+    "certifications": {
+      "title": "Certifications",
+      "items": [
+        "ICDL Certificate – EduHub (2022)",
+        "Banque Misr Online Training – Introduction to Banking Operations (2022)",
+        "Digital Marketing Challenger Track – Ministry of Communications (2022)",
+        "Entrepreneurship Training Program"
+      ]
+    },
+    "contact": {
+      "title": "Contact Me",
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "linkedin": "LinkedIn",
+      "connect": "Connect on LinkedIn",
+      "namePlaceholder": "Your Name",
+      "emailPlaceholder": "Your Email",
+      "messagePlaceholder": "Your Message",
+      "sendBtn": "Send Message"
+    }
+  },
+  "ar": {
+    "personal": {
+      "fullName": "عبدالرحمن زكريا يحيى",
+      "professionalTitle": "محاسب مبتدئ",
+      "location": "الشرقية، مصر",
+      "phone": "+20 155 521 1201",
+      "email": "bzakarya927@gmail.com",
+      "linkedin": "https://linkedin.com/in/abdelrahman-zakaria-18ba69236",
+      "cvDownloadUrl": "./Abdelrahman_Zakaria_CV (1).pdf",
+      "heroHeadline": "محاسب مبتدئ",
+      "heroIntroduction": "خريج محاسبة طموح لديه أساس قوي في التقارير المالية والتحليل المالي ومبادئ المراجعة. شغوف بتطبيق المهارات التحليلية والمعرفة المحاسبية لدعم القرارات التجارية ودقة البيانات المالية.",
+      "profileImage": "photo.jpeg"
+    },
+    "nav": {
+      "home": "الرئيسية",
+      "about": "عني",
+      "education": "التعليم",
+      "experience": "الخبرة",
+      "projects": "المشاريع",
+      "contact": "اتصل بي",
+      "lang": "English"
+    },
+    "about": {
+      "title": "نبذة عني",
+      "paragraphs": [
+        "خريج محاسبة من جامعة الزقازيق (قسم إنجليزي) بخبرة أكاديمية وعملية في التحليل المالي وعمليات التجزئة وإدخال البيانات. ماهر في التعامل مع المعاملات المالية، وتحليل القوائم المالية، والعمل بالمبادئ المحاسبية.",
+        "خبير في خدمة العملاء، وأنظمة POS، وإدارة بيانات المخزون. متحمس للغاية لبدء مسيرة مهنية احترافية في المحاسبة حيث يمكنني تطبيق معرفتي والنمو داخل منظمة ديناميكية."
+      ]
+    },
+    "education": {
+      "title": "التعليم",
+      "items": [
+        {
+          "institution": "جامعة الزقازيق",
+          "degree": "بكالوريوس التجارة - قسم المحاسبة (شعبة اللغة الإنجليزية) - نظام الساعات المعتمدة",
+          "graduationDate": "يوليو 2025",
+          "major": "المحاسبة",
+          "grade": "جيد",
+          "relevantCourses": ["المحاسبة المالية", "محاسبة التكاليف", "التحليل المالي", "المراجعة"]
+        }
+      ]
+    },
+    "experience": {
+      "title": "الخبرة العملية",
+      "items": [
+        {
+          "role": "كاشير وموظف إدخال بيانات المنتجات",
+          "company": "هايبر ماركت خير زمان - الشرقية",
+          "duration": "فبراير 2025",
+          "responsibilities": [
+            "معالجة معاملات المبيعات باستخدام أنظمة POS",
+            "تسوية المعاملات المالية اليومية",
+            "إدخال وتحديث أكثر من 1000 منتج في نظام المخزون",
+            "الحفاظ على دقة البيانات بنسبة 98%",
+            "تقديم خدمة عملاء فعالة"
+          ]
+        },
+        {
+          "role": "مدرب لياقة بدنية",
+          "company": "هاي جيم - الشرقية",
+          "duration": "2023",
+          "responsibilities": [
+            "تصميم برامج تدريبية مخصصة",
+            "مراقبة تقدم العملاء",
+            "ضمان تقنيات التمرين الآمنة",
+            "بناء علاقات قوية مع العملاء"
+          ]
+        }
+      ]
+    },
+    "projects": {
+      "title": "المشاريع الأكاديمية",
+      "items": [
+        {
+          "name": "مشروع تحليل القوائم المالية",
+          "description": "تحليل القوائم المالية لشركة حقيقية، وتطبيق تحليل النسب والتحليل الاتجاهي، وتقديم التوصيات في تقرير رسمي."
+        },
+        {
+          "name": "دراسة حالة تخصيص التكاليف",
+          "description": "محاكاة التكاليف لعملية تصنيع، وتطبيق تحليل CVP، واستخدام تكلفة أوامر العمل لتقدير هوامش الربح."
+        }
+      ]
+    },
+    "skills": {
+      "title": "المهارات الأساسية",
+      "items": [
+        {"name": "التحليل المالي", "level": 85},
+        {"name": "التقارير المالية", "level": 80},
+        {"name": "المبادئ المحاسبية", "level": 90},
+        {"name": "مايكروسوفت إكسل", "level": 95},
+        {"name": "إدخال البيانات", "level": 98},
+        {"name": "إدارة المخزون", "level": 85}
+      ]
+    },
+    "languages": {
+      "title": "اللغات",
+      "items": [
+        {"name": "العربية", "level": "اللغة الأم"},
+        {"name": "الإنجليزية", "level": "احترافي (خريج قسم إنجليزي)"}
+      ]
+    },
+    "certifications": {
+      "title": "الشهادات",
+      "items": [
+        "شهادة ICDL – EduHub (2022)",
+        "تدريب بنك مصر أونلاين – مقدمة في العمليات المصرفية (2022)",
+        "مسار تحدي التسويق الرقمي – وزارة الاتصالات (2022)",
+        "برنامج تدريب ريادة الأعمال"
+      ]
+    },
+    "contact": {
+      "title": "اتصل بي",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "location": "الموقع",
+      "linkedin": "لينكد إن",
+      "connect": "تواصل عبر لينكد إن",
+      "namePlaceholder": "اسمك",
+      "emailPlaceholder": "بريدك الإلكتروني",
+      "messagePlaceholder": "رسالتك",
+      "sendBtn": "إرسال الرسالة"
+    }
+  },
+  "contact": {
+    "formspreeEndpoint": "https://formspree.io/f/bzakarya927@gmail.com"
+  }
+}
